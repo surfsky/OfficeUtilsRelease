@@ -1,0 +1,133 @@
+/*
+色彩预设
+https://www.github.com/surfsky/
+2024-03
+*/
+
+/*****************************************************/
+/* 命名色（文本色、背景色、边框色）                       */
+/*****************************************************/
+/*text color*/
+.white               {color:white;}
+.black               {color:black;}
+.red                 {color:red;}
+.orange              {color:orange;}
+.yellow              {color:yellow;}
+.yellowgreen         {color:yellowgreen;}
+.green               {color:green;}
+.cyan                {color:cyan;}
+.blue                {color:blue;}
+.blueviolet          {color:blueviolet;}
+.violet              {color:violet;}
+.pink                {color:pink;}
+
+/*background color*/
+.bg-white            {background-color:white;}
+.bg-black            {background-color:black;}
+.bg-red              {background-color:red;}
+.bg-orange           {background-color:orange;}
+.bg-yellow           {background-color:yellow;}
+.bg-yellowgreen      {background-color:yellowgreen;}
+.bg-green            {background-color:green;}
+.bg-cyan             {background-color:cyan;}
+.bg-blue             {background-color:blue;}
+.bg-blueviolet       {background-color:blueviolet;}
+.bg-violet           {background-color:violet;}
+.bg-pink             {background-color:pink;}
+
+/*background transparent color*/
+.bg-white8           {background-color: rgba(255, 255, 255, 0.8);}
+.bg-white6           {background-color: rgba(255, 255, 255, 0.6);}
+.bg-white4           {background-color: rgba(255, 255, 255, 0.4);}
+.bg-white2           {background-color: rgba(255, 255, 255, 0.2);}
+.bg-black8           {background-color: rgba(0, 0, 0, 0.8);}
+.bg-black6           {background-color: rgba(0, 0, 0, 0.6);}
+.bg-black4           {background-color: rgba(0, 0, 0, 0.4);}
+.bg-black2           {background-color: rgba(0, 0, 0, 0.2);}
+
+/*border color*/
+.bd-white            {border-color:white;}
+.bd-black            {border-color:black;}
+.bd-red              {border-color:red;}
+.bd-orange           {border-color:orange;}
+.bd-yellow           {border-color:yellow;}
+.bd-yellowgreen      {border-color:yellowgreen;}
+.bd-green            {border-color:green;}
+.bd-cyan             {border-color:cyan;}
+.bd-blue             {border-color:blue;}
+.bd-blueviolet       {border-color:blueviolet;}
+.bd-violet           {border-color:violet;}
+.bd-pink             {border-color:pink;}
+
+
+/*****************************************************/
+/* 主题色（文本色、背景色、边框色）                       */
+/*****************************************************/
+:root {
+    --primary        :#007bff;
+    --secondary      :#6c757d;
+    --success        :#28a745;
+    --info           :#17a2b8;
+    --warning        :#ffc107;
+    --danger         :#dc3545;
+    --dark           :#343a40;
+    --light          :#f8f9fa;
+}
+.primary             {color:var(--primary  );}
+.secondary           {color:var(--secondary);}
+.success             {color:var(--success  );}
+.info                {color:var(--info     );}
+.warning             {color:var(--warning  );}
+.danger              {color:var(--danger   );}
+.dark                {color:var(--dark     );}
+.light               {color:var(--light    );}
+.bg-primary          {background-color:var(--primary  );}
+.bg-secondary        {background-color:var(--secondary);}
+.bg-success          {background-color:var(--success  );}
+.bg-info             {background-color:var(--info     );}
+.bg-warning          {background-color:var(--warning  );}
+.bg-danger           {background-color:var(--danger   );}
+.bg-dark             {background-color:var(--dark     );}
+.bg-light            {background-color:var(--light    );}
+.bd-primary          {border-color:var(--primary  );}
+.bd-secondary        {border-color:var(--secondary);}
+.bd-success          {border-color:var(--success  );}
+.bd-info             {border-color:var(--info     );}
+.bd-warning          {border-color:var(--warning  );}
+.bd-danger           {border-color:var(--danger   );}
+.bd-dark             {border-color:var(--dark     );}
+.bd-light            {border-color:var(--light    );}
+
+
+/*****************************************************/
+/* 子元素色彩                                          */
+/*****************************************************/
+/*child text colors*/
+.ct-primary     > *       {color:var(--primary  );}
+.ct-secondary   > *       {color:var(--secondary);}
+.ct-success     > *       {color:var(--success  );}
+.ct-info        > *       {color:var(--info     );}
+.ct-warning     > *       {color:var(--warning  );}
+.ct-danger      > *       {color:var(--danger   );}
+.ct-dark        > *       {color:var(--dark     );}
+.ct-light       > *       {color:var(--light    );}
+
+/*child background colors*/
+.cbg-primary   > *       {background-color:var(--primary  );}
+.cbg-secondary > *       {background-color:var(--secondary);}
+.cbg-success   > *       {background-color:var(--success  );}
+.cbg-info      > *       {background-color:var(--info     );}
+.cbg-warning   > *       {background-color:var(--warning  );}
+.cbg-danger    > *       {background-color:var(--danger   );}
+.cbg-dark      > *       {background-color:var(--dark     );}
+.cbg-light     > *       {background-color:var(--light    );}
+
+/*child background transparent color*/
+.cbg-white8   > *        {background-color: rgba(255, 255, 255, 0.8);}
+.cbg-white6   > *        {background-color: rgba(255, 255, 255, 0.6);}
+.cbg-white4   > *        {background-color: rgba(255, 255, 255, 0.4);}
+.cbg-white2   > *        {background-color: rgba(255, 255, 255, 0.2);}
+.cbg-black8   > *        {background-color: rgba(0, 0, 0, 0.8);}
+.cbg-black6   > *        {background-color: rgba(0, 0, 0, 0.6);}
+.cbg-black4   > *        {background-color: rgba(0, 0, 0, 0.4);}
+.cbg-black2   > *        {background-color: rgba(0, 0, 0, 0.2);}
